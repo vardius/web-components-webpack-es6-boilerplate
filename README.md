@@ -1,4 +1,4 @@
-# Web Components project starter using ES6 and Webpack
+# [Web Components](https://www.webcomponents.org/) project starter using ES6 and [Webpack](https://webpack.github.io/)
 [![Build Status](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate.svg?branch=master)](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate)
 
 ## Project setup includes:
