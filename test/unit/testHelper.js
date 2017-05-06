@@ -1,10 +1,12 @@
 import jq from 'jquery';
-import jsdom from 'jsdom';
+import {JSDOM} from 'jsdom';
 import chai, { expect } from 'chai';
 import chaiJquery from 'chai-jquery';
 
+const dom = new JSDOM('<!doctype html><html><body></body></html>');
+
 // Global prerequisites to make it work in the command line
-global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
+global.document = dom.window.document;
 global.window = global.document.defaultView;
 const $ = jq(window);
 
