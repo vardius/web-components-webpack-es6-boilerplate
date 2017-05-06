@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate.svg?branch=master)](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate)
 
 ## Project setup includes:
+
 - [x] Server Rendering
 - [x] Webpack2
 - [x] Webpack Dashboard
