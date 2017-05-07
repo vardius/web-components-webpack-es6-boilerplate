@@ -18,7 +18,7 @@ module.exports = merge(config, {
       'babel-polyfill',
       'client/js/index'
     ],
-    vendor: ['bootstrap']
+    vendor: ['web-component', 'bootstrap']
   },
   plugins: [
     new webpack.LoaderOptionsPlugin({

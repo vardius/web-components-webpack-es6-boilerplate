@@ -1,19 +1,13 @@
-const template = require('./hello-world.html');
+import { WebComponent } from 'web-component'
 
+@WebComponent('hello-world', {
+  template: require('./hello-world.html'),
+  shadowDOM: true
+})
 export class HelloWorld extends HTMLElement {
   constructor() {
     super();
     this._who = null;
-
-    let shadowRoot = this.attachShadow({
-      mode: 'open'
-    });
-
-    const t = document.createElement('template');
-    t.innerHTML = template;
-
-    const instance = t.content.cloneNode(true);
-    shadowRoot.appendChild(instance);
   }
 
   static get observedAttributes() {
@@ -45,5 +39,3 @@ export class HelloWorld extends HTMLElement {
     this.shadowRoot.querySelector('#who').textContent = `, ${this._who}`;
   }
 }
-
-customElements.define('hello-world', HelloWorld);
