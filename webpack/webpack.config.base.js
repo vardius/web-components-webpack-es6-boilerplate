@@ -3,14 +3,15 @@
 const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const e2c = require('electron-to-chromium');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const postcssLoaderOptions = {
   plugins: [
     autoprefixer({
-      browsers: ['last 2 versions']
-    })
+      browsers: e2c.electronToBrowserList('1.4')
+    }),
   ]
 };
 
