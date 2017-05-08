@@ -3,6 +3,7 @@
 
 ## Project setup includes:
 
+- [x] [web-component](https://github.com/vardius/web-component)
 - [x] Server Rendering
 - [x] Webpack2
 - [x] Webpack Dashboard
