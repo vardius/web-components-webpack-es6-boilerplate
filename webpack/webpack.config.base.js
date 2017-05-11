@@ -94,10 +94,10 @@ module.exports = {
           }
         }
       },
+      // Application-wide styles
       {
         test: /\.scss$/,
         include: [
-          path.resolve(__dirname, '../src/client/js'),
           path.resolve(__dirname, '../src/client/assets/styles'),
         ],
         use: ExtractTextPlugin.extract({
@@ -121,19 +121,18 @@ module.exports = {
           ]
         })
       },
-      // CSS
+      // Component-scoped styles
       {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            {
-              loader: 'postcss-loader',
-              options: postcssLoaderOptions,
-            }
-          ]
-        })
+        test: /\.scss$/,
+        include: [
+          path.resolve(__dirname, '../src/client/js')
+        ],
+        use: [
+          {loader: 'raw-loader'},
+          {loader: 'postcss-loader', options: postcssLoaderOptions},
+          {loader: 'sass-loader', options: {outputStyle: 'compressed'}
+          }
+        ]
       }
     ]
   }
