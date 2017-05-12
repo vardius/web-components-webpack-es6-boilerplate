@@ -30,6 +30,7 @@ module.exports = {
     extensions: ['.js', '.json', '.scss']
   },
   plugins: [
+    new webpack.IgnorePlugin(/vertx/),
     new webpack.ProvidePlugin({
       'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch', // fetch API
       $: 'jquery',
@@ -127,10 +128,18 @@ module.exports = {
         include: [
           path.resolve(__dirname, '../src/client/js')
         ],
-        use: [
-          {loader: 'raw-loader'},
-          {loader: 'postcss-loader', options: postcssLoaderOptions},
-          {loader: 'sass-loader', options: {outputStyle: 'compressed'}
+        use: [{
+            loader: 'raw-loader'
+          },
+          {
+            loader: 'postcss-loader',
+            options: postcssLoaderOptions
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              outputStyle: 'compressed'
+            }
           }
         ]
       }
