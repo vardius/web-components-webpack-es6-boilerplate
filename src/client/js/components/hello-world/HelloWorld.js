@@ -15,7 +15,7 @@ export class HelloWorld extends HTMLElement {
   }
 
   // Only called for the who attributes due to observedAttributes
-  attributeChangedCallback(name, oldValue, newValue) {
+  attributeChangedCallback() {
     //this._who = newValue; this is handled by WebComponent decorator
     this._updateRendering();
   }
