@@ -15,8 +15,7 @@
 - [x] Boostrap
 - [x] Font Awsome
 - [x] Eslint
-- [x] Mocha
-- [x] Chai
+- [x] Jest
 
 ## Installation
 
