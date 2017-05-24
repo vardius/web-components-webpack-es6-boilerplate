@@ -4,7 +4,7 @@ import { WebComponent } from 'web-component'
   template: require('./hello-world.html'),
   shadowDOM: true
 })
-export class HelloWorld extends HTMLElement {
+export default class HelloWorld extends HTMLElement {
   constructor() {
     super();
     this._who = null; //this property is bind to element attribute becouse of observedAttributes
