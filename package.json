@@ -12,8 +12,8 @@
     "build:serve": "http-server build/client -p 3003 --cors -o",
     "prestart": "yarn run clean:build",
     "start": "webpack-dashboard -- node ./bin/server.js",
-    "test": "cross-env BABEL_ENV=commonjs jest",
-    "test:cov": "yarn test -- --coverage",
+    "test": "cross-env BABEL_ENV=commonjs jest --config $(node jest.config.js)",
+    "test:cov": "yarn test -- --coverage --config $(node jest.config.js)",
     "test:watch": "yarn test -- --watch",
     "lint": "eslint config src/** --ext .js",
     "tunnel": "lt --port 3000"
@@ -28,9 +28,6 @@
     "babel-runtime": "6.11.6",
     "cookie-parser": "1.4.3",
     "express": "4.14.0"
-  },
-  "jest": {
-    "testRegex": "(/test/.*\\.spec.js)$"
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^1.0.0",
