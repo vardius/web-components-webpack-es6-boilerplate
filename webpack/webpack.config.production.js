@@ -13,7 +13,7 @@ const GLOBALS = {
 };
 
 module.exports = merge(config, {
-  devtool: "cheap-module-source-map",
+  devtool: "nosources-source-map",
   entry: {
     application: ["babel-polyfill", "client/js/index"],
     vendor: [

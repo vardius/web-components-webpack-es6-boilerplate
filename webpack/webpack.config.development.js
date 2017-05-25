@@ -10,7 +10,6 @@ const GLOBALS = {
 };
 
 module.exports = merge(config, {
-  // devtool: 'cheap-module-eval-source-map',
   devtool: "source-map",
   entry: {
     application: [
