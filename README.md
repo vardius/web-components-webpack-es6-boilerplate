@@ -17,6 +17,11 @@
 - [x] Eslint
 - [x] Jest
 
+## TODO
+
+- [ ] Uglify on production (doesn't work with es6 browsers)
+- [ ] Fix jest tests - html templates, mock customElements
+
 ## Installation
 
 ```sh

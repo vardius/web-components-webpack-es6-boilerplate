@@ -1,7 +1,7 @@
-import { WebComponent } from 'web-component'
+import { WebComponent } from "web-component";
 
-@WebComponent('hello-world', {
-  template: require('./hello-world.html'),
+@WebComponent("hello-world", {
+  template: require("./hello-world.html"),
   shadowDOM: true
 })
 export default class HelloWorld extends HTMLElement {
@@ -11,7 +11,7 @@ export default class HelloWorld extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ['who'];
+    return ["who"];
   }
 
   // Only called for the who attributes due to observedAttributes
@@ -40,6 +40,8 @@ export default class HelloWorld extends HTMLElement {
   // }
 
   _updateRendering() {
-    this.shadowRoot.querySelector('#who').textContent = `, ${this._who}`;
+    if (this.shadowRoot) {
+      this.shadowRoot.querySelector("#who").textContent = `, ${this._who}`;
+    }
   }
 }

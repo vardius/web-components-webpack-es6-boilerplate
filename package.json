@@ -12,8 +12,8 @@
     "build:serve": "http-server build/client -p 3003 --cors -o",
     "prestart": "yarn run clean:build",
     "start": "webpack-dashboard -- node ./bin/server.js",
-    "test": "cross-env BABEL_ENV=commonjs jest --config $(node jest.config.js)",
-    "test:cov": "yarn test -- --coverage --config $(node jest.config.js)",
+    "test": "cross-env BABEL_ENV=commonjs jest --no-cache --config $(node jest.config.js)",
+    "test:cov": "yarn test -- --coverage",
     "test:watch": "yarn test -- --watch",
     "lint": "eslint config src/** --ext .js",
     "tunnel": "lt --port 3000"
@@ -30,7 +30,7 @@
     "express": "4.14.0"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^1.0.0",
+    "@webcomponents/webcomponentsjs": "^1.0.1",
     "autoprefixer": "^6.7.7",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -56,7 +56,7 @@
     "http-server": "^0.10.0",
     "jest": "^20.0.3",
     "jquery": "^3.2.1",
-    "jsdom": "^10.1.0",
+    "jsdom": "^11.0.0",
     "node-sass": "^4.5.2",
     "postcss-loader": "^1.3.3",
     "raw-loader": "^0.5.1",
@@ -64,7 +64,7 @@
     "sass-loader": "^6.0.3",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8",
-    "web-component": "^1.0.8",
+    "web-component": "^1.0.14",
     "webpack": "^2.4.1",
     "webpack-dashboard": "^0.4.0",
     "webpack-dev-middleware": "^1.10.2",
