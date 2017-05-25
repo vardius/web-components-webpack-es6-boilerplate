@@ -6,6 +6,7 @@ const ESCAPE_TEMPLATE_REGEX = /(\${|\`)/g;
 module.exports.process = (src, path, config) => {
   if (path.endsWith(".html")) {
     src = src.replace(ESCAPE_TEMPLATE_REGEX, "\\$1");
+    src = "module.exports=`" + src + "`;";
   }
   src = src.replace(STYLE_URLS_REGEX, "styles: []");
 

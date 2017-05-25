@@ -1,2 +1,15 @@
-require("@webcomponents/webcomponentsjs/custom-elements-es5-adapter");
-// require("@webcomponents/webcomponentsjs/webcomponents-loader");
+const mock = () => {
+  let name;
+  let target;
+  let options;
+
+  return {
+    define: (n, t, o) => {
+      name = n;
+      target = t;
+      options = o;
+    }
+  };
+};
+
+Object.defineProperty(window, "customElements", { value: mock() });
