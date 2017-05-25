@@ -1,4 +1,4 @@
-import { HelloWorld } from "./../src/client/js/components";
+import { HelloWorld } from "src/client/js/components";
 
 describe("Example test", () => {
   it("works", () => {
