@@ -1805,6 +1805,10 @@ doctrine@^2.0.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
+document-register-element@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.4.1.tgz#22b41e96fb86cccab2fa30f7d2a8d62ac7be8c57"
+
 dom-converter@~0.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
