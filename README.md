@@ -3,6 +3,11 @@
 [![codecov](https://codecov.io/gh/vardius/web-components-webpack-es6-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/vardius/web-components-webpack-es6-boilerplate)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.txt)
 
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/badge.svg?style=beer-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate)  [![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/make-wish.svg?style=flat-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate?focus=wish)
+
 ## Project setup includes:
 
 - [x] [web-component](https://github.com/vardius/web-component)
@@ -66,8 +71,3 @@ You will receive a url, for example `https://tbst.localtunnel.me`, that you can 
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/badge.svg?style=beer-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate)  [![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/make-wish.svg?style=flat-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate?focus=wish)
