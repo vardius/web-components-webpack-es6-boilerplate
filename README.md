@@ -66,3 +66,8 @@ You will receive a url, for example `https://tbst.localtunnel.me`, that you can 
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/badge.svg?style=beer-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate)  [![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/make-wish.svg?style=flat-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate?focus=wish)
