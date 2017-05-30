@@ -5589,9 +5589,9 @@ watchpack@^1.3.1:
     chokidar "^1.4.3"
     graceful-fs "^4.1.2"
 
-web-component@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/web-component/-/web-component-1.0.17.tgz#65d2438c037a6b2685454af9d871d90dd78bb369"
+web-component@^1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/web-component/-/web-component-1.0.18.tgz#3fd59758240d736553c9346ad48d1265d609f117"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

@@ -65,7 +65,7 @@
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
     "url-loader": "^0.5.8",
-    "web-component": "^1.0.17",
+    "web-component": "^1.0.18",
     "webpack": "^2.6.1",
     "webpack-dashboard": "^0.4.0",
     "webpack-dev-middleware": "^1.10.2",
