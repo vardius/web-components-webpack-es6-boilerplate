@@ -1594,13 +1594,14 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
-css-loader@^0.28.3:
-  version "0.28.3"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.3.tgz#9fd5e0b8c405b6df927ba1103887015d360640ce"
+css-loader@^0.28.4:
+  version "0.28.4"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.4.tgz#6cf3579192ce355e8b38d5f42dd7a1f2ec898d0f"
   dependencies:
     babel-code-frame "^6.11.0"
     css-selector-tokenizer "^0.7.0"
     cssnano ">=2.6.1 <4"
+    icss-utils "^2.1.0"
     loader-utils "^1.0.2"
     lodash.camelcase "^4.3.0"
     object-assign "^4.0.1"
@@ -1813,9 +1814,9 @@ doctrine@^2.0.0:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-document-register-element@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.4.1.tgz#22b41e96fb86cccab2fa30f7d2a8d62ac7be8c57"
+document-register-element@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.5.0.tgz#a91bc20afd9340d50cdb6a493afaf10932c12e00"
 
 dom-converter@~0.1:
   version "0.1.4"
@@ -2757,6 +2758,12 @@ iconv-lite@0.4.13:
 icss-replace-symbols@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
+
+icss-utils@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/icss-utils/-/icss-utils-2.1.0.tgz#83f0a0ec378bf3246178b6c2ad9136f135b1c962"
+  dependencies:
+    postcss "^6.0.1"
 
 ieee754@^1.1.4:
   version "1.1.8"
@@ -5589,9 +5596,9 @@ watchpack@^1.3.1:
     chokidar "^1.4.3"
     graceful-fs "^4.1.2"
 
-web-component@^1.0.18:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/web-component/-/web-component-1.0.18.tgz#3fd59758240d736553c9346ad48d1265d609f117"
+web-component@^1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/web-component/-/web-component-1.0.19.tgz#16d64c22f44abfd6a0a7068545d9f8c43e8cd153"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
