@@ -18,7 +18,7 @@ module.exports = merge(config, {
     application: ["babel-polyfill", "client/js/index"],
     vendor: [
       "bootstrap",
-      '@webcomponents/webcomponentsjs/custom-elements-es5-adapter',
+      "@webcomponents/webcomponentsjs/custom-elements-es5-adapter",
       "@webcomponents/webcomponentsjs/webcomponents-loader",
       "web-component"
     ]
