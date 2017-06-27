@@ -8,11 +8,11 @@
 
 - [x] [web-component](https://github.com/vardius/web-component)
 - [x] Server Rendering
-- [x] Webpack2
+- [x] Webpack
 - [x] Webpack Dashboard
 - [x] Dev Middleware
-- [x] Web Components es5 shim
-- [x] Babel 6
+- [x] Web Components
+- [x] Babel
 - [x] Boostrap
 - [x] Font Awsome
 - [x] Eslint
