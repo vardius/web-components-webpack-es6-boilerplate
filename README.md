@@ -1,18 +1,18 @@
 # [Web Components](https://www.webcomponents.org/) project starter using ES6 and [Webpack](https://webpack.github.io/)
 [![Build Status](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate.svg?branch=master)](https://travis-ci.org/vardius/web-components-webpack-es6-boilerplate)
 [![codecov](https://codecov.io/gh/vardius/web-components-webpack-es6-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/vardius/web-components-webpack-es6-boilerplate)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.txt)
+[![license](https://img.shields.io/github/license/vardius/web-components-webpack-es6-boilerplate.svg)](LICENSE.txt)
 [![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/badge.svg?style=beer-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate)  [![Beerpay](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate/make-wish.svg?style=flat-square)](https://beerpay.io/vardius/web-components-webpack-es6-boilerplate?focus=wish)
 
 ## Project setup includes:
 
 - [x] [web-component](https://github.com/vardius/web-component)
 - [x] Server Rendering
-- [x] Webpack2
+- [x] Webpack
 - [x] Webpack Dashboard
 - [x] Dev Middleware
-- [x] Web Components es5 shim
-- [x] Babel 6
+- [x] Web Components
+- [x] Babel
 - [x] Boostrap
 - [x] Font Awsome
 - [x] Eslint
