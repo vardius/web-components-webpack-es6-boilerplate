@@ -29,7 +29,7 @@
     "babel-polyfill": "6.23.0",
     "babel-runtime": "^6.23.0",
     "cookie-parser": "1.4.3",
-    "express": "^4.15.3"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^1.0.3",
